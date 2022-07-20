@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_udemy/login_screen.dart';
 import 'package:flutter_udemy/massenger_screen.dart';
+import 'package:flutter_udemy/user_screen.dart';
 
 void main() {
   MyApp app = MyApp();
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MassengerScreen(),
+      home: UserScreen(),
       debugShowCheckedModeBanner: false,
       // done
     );
