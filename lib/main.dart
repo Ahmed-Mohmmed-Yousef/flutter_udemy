@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'counter_screen.dart';
+import 'package:flutter_udemy/login_screen.dart';
 
 void main() {
   MyApp app = MyApp();
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: CounterScreen(),
+      home: LoginScreen(),
       debugShowCheckedModeBanner: false,
       // done
     );
